@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D738D9F1C67F66700C1D0B5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D738D9E1C67F66700C1D0B5 /* DataService.swift */; };
 		4DFF32D21C652CB800DF77AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF32D11C652CB800DF77AA /* AppDelegate.swift */; };
-		4DFF32D41C652CB800DF77AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF32D31C652CB800DF77AA /* ViewController.swift */; };
+		4DFF32D41C652CB800DF77AA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF32D31C652CB800DF77AA /* MainVC.swift */; };
 		4DFF32D71C652CB800DF77AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF32D51C652CB800DF77AA /* Main.storyboard */; };
 		4DFF32D91C652CB800DF77AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF32D81C652CB800DF77AA /* Assets.xcassets */; };
 		4DFF32DC1C652CB800DF77AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF32DA1C652CB800DF77AA /* LaunchScreen.storyboard */; };
+		4DFF32E71C65332200DF77AA /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF32E61C65332200DF77AA /* Character.swift */; };
+		4DFF32E91C65357E00DF77AA /* CharCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF32E81C65357E00DF77AA /* CharCell.swift */; };
+		4DFF32EB1C6555E700DF77AA /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF32EA1C6555E700DF77AA /* RoundedButton.swift */; };
+		4DFF32ED1C6557E100DF77AA /* RoundedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF32EC1C6557E100DF77AA /* RoundedTableView.swift */; };
+		4DFF32EF1C669E7E00DF77AA /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF32EE1C669E7E00DF77AA /* RoundedImageView.swift */; };
+		4DFF32F11C66A83500DF77AA /* AddCharacterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF32F01C66A83500DF77AA /* AddCharacterVC.swift */; };
+		4DFF32F31C67DBB900DF77AA /* ImageShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF32F21C67DBB900DF77AA /* ImageShowVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D738D9E1C67F66700C1D0B5 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		4DFF32CE1C652CB800DF77AA /* Blade and Soul Characterz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blade and Soul Characterz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFF32D11C652CB800DF77AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DFF32D31C652CB800DF77AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DFF32D31C652CB800DF77AA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4DFF32D61C652CB800DF77AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DFF32D81C652CB800DF77AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DFF32DB1C652CB800DF77AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DFF32DD1C652CB800DF77AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFF32E61C65332200DF77AA /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		4DFF32E81C65357E00DF77AA /* CharCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharCell.swift; sourceTree = "<group>"; };
+		4DFF32EA1C6555E700DF77AA /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		4DFF32EC1C6557E100DF77AA /* RoundedTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedTableView.swift; sourceTree = "<group>"; };
+		4DFF32EE1C669E7E00DF77AA /* RoundedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		4DFF32F01C66A83500DF77AA /* AddCharacterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCharacterVC.swift; sourceTree = "<group>"; };
+		4DFF32F21C67DBB900DF77AA /* ImageShowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageShowVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D738D9D1C67F64C00C1D0B5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4D738D9E1C67F66700C1D0B5 /* DataService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
 		4DFF32C51C652CB800DF77AA = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +78,46 @@
 		4DFF32D01C652CB800DF77AA /* Blade and Soul Characterz */ = {
 			isa = PBXGroup;
 			children = (
+				4D738D9D1C67F64C00C1D0B5 /* Service */,
+				4DFF32E51C652CD300DF77AA /* Controller */,
+				4DFF32E41C652CCD00DF77AA /* View */,
+				4DFF32E31C652CC700DF77AA /* Model */,
 				4DFF32D11C652CB800DF77AA /* AppDelegate.swift */,
-				4DFF32D31C652CB800DF77AA /* ViewController.swift */,
-				4DFF32D51C652CB800DF77AA /* Main.storyboard */,
 				4DFF32D81C652CB800DF77AA /* Assets.xcassets */,
-				4DFF32DA1C652CB800DF77AA /* LaunchScreen.storyboard */,
 				4DFF32DD1C652CB800DF77AA /* Info.plist */,
 			);
 			path = "Blade and Soul Characterz";
+			sourceTree = "<group>";
+		};
+		4DFF32E31C652CC700DF77AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF32E61C65332200DF77AA /* Character.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4DFF32E41C652CCD00DF77AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF32D51C652CB800DF77AA /* Main.storyboard */,
+				4DFF32DA1C652CB800DF77AA /* LaunchScreen.storyboard */,
+				4DFF32E81C65357E00DF77AA /* CharCell.swift */,
+				4DFF32EA1C6555E700DF77AA /* RoundedButton.swift */,
+				4DFF32EC1C6557E100DF77AA /* RoundedTableView.swift */,
+				4DFF32EE1C669E7E00DF77AA /* RoundedImageView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4DFF32E51C652CD300DF77AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF32D31C652CB800DF77AA /* MainVC.swift */,
+				4DFF32F01C66A83500DF77AA /* AddCharacterVC.swift */,
+				4DFF32F21C67DBB900DF77AA /* ImageShowVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DFF32D41C652CB800DF77AA /* ViewController.swift in Sources */,
+				4DFF32E71C65332200DF77AA /* Character.swift in Sources */,
+				4DFF32EB1C6555E700DF77AA /* RoundedButton.swift in Sources */,
+				4DFF32D41C652CB800DF77AA /* MainVC.swift in Sources */,
+				4DFF32ED1C6557E100DF77AA /* RoundedTableView.swift in Sources */,
 				4DFF32D21C652CB800DF77AA /* AppDelegate.swift in Sources */,
+				4DFF32E91C65357E00DF77AA /* CharCell.swift in Sources */,
+				4DFF32F31C67DBB900DF77AA /* ImageShowVC.swift in Sources */,
+				4DFF32F11C66A83500DF77AA /* AddCharacterVC.swift in Sources */,
+				4DFF32EF1C669E7E00DF77AA /* RoundedImageView.swift in Sources */,
+				4D738D9F1C67F66700C1D0B5 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +316,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.StanSuc.Blade-and-Soul-Characterz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -263,6 +328,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.StanSuc.Blade-and-Soul-Characterz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -285,6 +351,7 @@
 				4DFF32E21C652CB800DF77AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
